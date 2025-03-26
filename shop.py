@@ -16,7 +16,7 @@ admin = Admin(username="root", email="root@derkunov.ru", admin_level=5)
 cart = ShoppingCart(customer)
 cart.add_item(laptop, 1)
 cart.add_item(tshirt, 3)
-cart.add_item(Housechemicals, 2)
+cart.add_item(Housechemicals, 3)
 
 #Регистрация корзины
 #cart.register(admin)
