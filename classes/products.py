@@ -32,6 +32,7 @@ class Clothing(Product):
         self.size = size
         self.material = material
 
+
     def get_details(self):
         return f"Одежда: {self.name}, Размер: {self.size}, Материал: {self.material}, Цена: {self.price} руб."
 
