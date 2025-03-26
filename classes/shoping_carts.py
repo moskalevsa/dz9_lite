@@ -35,7 +35,7 @@ class ShoppingCart:
 
     def get_total(self):
         """
-        Возвращает общую стоимость продуктов в корзине.
+        Возвращает общую стоимость продуктов в корзине.  
         """
         total = sum(item["Продукт"].price * item["количество"] for item in self.items)
         return total
